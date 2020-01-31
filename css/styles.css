@@ -602,6 +602,7 @@ bottom: 1px;
         flex-wrap: wrap;
         top: 0;
         height: 850px;
+        padding-bottom: 60px;
     }
     
     .person-elemnts2{

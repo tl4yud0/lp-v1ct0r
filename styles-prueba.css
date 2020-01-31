@@ -39,3 +39,38 @@ position: absolute;
   bottom: 0;
   border-color: #f25f5c #f25f5c #f25f5c #f25f5c;
 }
+
+
+.sectionblue {
+  min-height: 33.33vh;
+}
+.sectionblue:nth-child(even) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: blue;
+}
+.sectionblue:nth-child(even):not(.title) {
+  outline: 0px dashed rgba(0, 0, 0, 0.3);
+}
+.titleblue {
+  position: relative;
+  padding: 100px 0;
+  overflow: hidden;
+}
+.titleblue::before,
+.titleblue::after {
+  content: '';
+  position: absolute;
+  border-width: 0 0 50px 100vw;
+  border-style: solid;
+}
+.titleblue::before {
+  top: 0;
+  border-color: blue blue blue #fff;
+}
+.titleblue::after {
+  bottom: 0;
+  border-color: blue blue #fff blue;
+}
