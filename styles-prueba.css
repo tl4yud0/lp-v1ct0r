@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.section {
+  min-height: 1vh;
+position: absolute;
+    top: 100px;
+    z-index: 0;
+}
+.section:nth-child(even) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #f25f5c;
+}
+.section:nth-child(even):not(.title) {
+  outline: 1px dashed rgba(0, 0, 0, 0.3);
+}
+.title {
+  position: relative;
+  padding: 90px 0 0;
+  overflow: hidden;
+}
+.title::before,
+.title::after {
+  content: "";
+  position: absolute;
+  border-width: 0 0 50px 100vw;
+  border-style: solid;
+}
+.title::before {
+  top: 0;
+  border-color: #fff #fff #f25f5c #fff;
+}
+.title::after {
+  bottom: 0;
+  border-color: #f25f5c #f25f5c #f25f5c #f25f5c;
+}
