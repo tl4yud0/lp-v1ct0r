@@ -1,14 +1,10 @@
-
 body {
     display: block;
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
-
-    
 }
-
 h1,
 h2,
 h3,
@@ -18,20 +14,17 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
 }
-
 h1{
     color: #010AD8;
     font-size: 40px;
     margin-bottom: 40px;
     font-weight: bold;
-    
 }
 h1 span {
      color: #E8354B;
     font-size: 40px;
     margin-bottom: 40px;
 }
-
 h2{
 color: #010AD8;
     font-size: 40px;
@@ -44,7 +37,6 @@ color: white;
     margin-bottom: 0;
     text-align: left;
 }
-
 .hero-image{
     object-fit: cover;
     }
@@ -102,7 +94,6 @@ figure {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .project-course,
 .project-date,
 .project-url{
@@ -160,8 +151,6 @@ figure {
     flex-wrap: inherit;
     position: relative;
     }
-
-
 .event {
     margin: 0 auto;
     width: 100%;
@@ -181,7 +170,6 @@ figure {
 }
 .event-list-title{
     margin: 0 30px 30px;
-    
 }
 .event-title{
     color: #E8354B;
@@ -237,11 +225,10 @@ figure {
 .paragraphe-detail{
     width: 46%;
 }
-    .paragraphe-detail-2 {
+.paragraphe-detail-2 {
         margin: 0 auto;
 width: 65%;
     }
-
 .name{
     color: #010AD8;;
     font-size: 40px;
@@ -287,14 +274,12 @@ width: 65%;
     top: 0;
      height: 970px;
 }
-
 .person-elemnts1{
     display: block;
 position: relative;
   width: 100%;
     height: auto;
   z-index: 1;
-    
 }
 .person-elemnts2{
     position: relative;
@@ -302,13 +287,11 @@ position: relative;
     margin: 0 auto;
     top: 0px;
     right: 0px; 
-    
 }
 .person-elemnts3{
     position: absolute;
     z-index: 3;
     right: 1px;
-    
 }
 .person-elemnts4{
     display: block;
@@ -316,8 +299,7 @@ position: relative;
     bottom: 1px;
   width: 100%;
     height: auto;
-  z-index: 1;
-    
+  z-index: 1; 
 }
 .text-elemnts{
      position: ;
@@ -353,10 +335,8 @@ color: white;
     width: 100%;
     z-index: 7;
 }
-
 .topimage{
     width: 100%;
-    
 }
 .person{
     width: 15vw;
@@ -364,14 +344,12 @@ color: white;
 .typo{
     width: 40vw;
 }
-
 .post{
     color: white;
     font-size: 1.1em;
     font-weight: bold;
     line-height: 1.5em;
 }
-
 .post span{
      color: white;
     font-size: 1em;
@@ -383,19 +361,16 @@ color: white;
     font-size: 1em;
     line-height: 1.5em;
 }
-
 .containerbox{
     width: 100%;
     height: 30px;
 }
-
 .box{
    width: 100%;
   height: 30px;
-
   background: repeating-linear-gradient(-.9deg, #E8354B 0, #E8354B 50%,  white 0, white);
 }
-    .footer{
+.footer{
     background-color: white;
     color: #8e8e8e;
     display: flex;
@@ -408,7 +383,6 @@ color: white;
 .footer img{
     vertical-align: middle;
 }
-
 .footer .email{
     text-align: right;
     color:  #E8354B;
@@ -416,9 +390,7 @@ color: white;
 .footer p{
     font-size: .8em;
     line-height: 1.5em;
-    
 }
-
 .footer a{
     color:  #E8354B;
     text-decoration: none;
@@ -426,11 +398,9 @@ color: white;
 .footer .tel {
     color:  blue;
 }
-
 @media screen and (max-width: 2560px) and (min-width: 1601px){
-    
     .event-title{
-    font-size: 50px;
+    font-size: 42px;
     margin: 0;
     width: 25vw;  
     }
@@ -442,24 +412,24 @@ color: white;
         bottom: 250px;
         left: 480px;
     }
-.container-profil-bloc{
-    width: 100%;
-  top: 10px;
-  left: 10px;
-  background-color: #E8354B;
-  z-index: -1;
-}
+    .container-profil-bloc{
+        width: 100%;
+        top: 10px;
+        left: 10px;
+        background-color: #E8354B;
+        z-index: -1;
+    }
     .title-profil {
-    color: #010AD8;
-    font-size: 3vw;
-    margin-bottom: 30px;
-    margin-top: 0;
-    margin-left: 15vw;
-    font-weight: bold;
+        color: #010AD8;
+        font-size: 3vw;
+        margin-bottom: 30px;
+        margin-top: 0;
+        margin-left: 15vw;
+        font-weight: bold;
     }
     .title-profil span {
-    color: white;
-    font-size: 3vw;
+        color: white;
+        font-size: 3vw;
         font-weight: bold;}
     .person{
         width: 20vw;
@@ -483,7 +453,6 @@ color: white;
         margin: 0 auto;
     }
 }
-   
 @media screen and (max-width: 1600px){
     .person{
         width: 25vw;
@@ -508,7 +477,6 @@ color: white;
         margin: 0 auto;
     }
 }
-
 @media screen and (max-width: 1280px){
     .person{
         width: 30vw;
@@ -537,14 +505,13 @@ color: white;
         z-index: 3;
         margin: 0 50px;
     }
-        .paragraphe-detail-2 {
-            margin: 0 auto;
-width: 65%;
+    .paragraphe-detail-2 {
+        margin: 0 auto;
+        width: 65%;
     }
 }
 
 @media screen and (max-width: 1024px){
-    
     .event-title{
         font-size: 50px;
         margin: 0;
@@ -586,9 +553,9 @@ width: 65%;
         right: 1px;
         top: 100px;
 }
-            .paragraphe-detail-2 {
-                margin: -100px auto 110px;
-width: 90%;
+    .paragraphe-detail-2 {
+        margin: -100px auto 110px;
+        width: 90%;
     }
       
 }
@@ -607,7 +574,6 @@ width: 90%;
         width: 100vw;
         margin: 30px 0;
     }
-    
     .event-detail{
         margin: 0px;
         background-color: transparent;
@@ -633,10 +599,9 @@ width: 90%;
         text-align: center;
     }
     .paragraphe-detail-2 {
-                margin: 10px auto ;
-width: 90%;
+        margin: 10px auto ;
+        width: 90%;
     }
-
     .container-profil-bloc{
         background-color: #E8354B;
     }
@@ -669,15 +634,13 @@ width: 90%;
     }
     .text-elemnts{
         position: relative;
-bottom: 1px;
+        bottom: 1px;
         z-index: 3;
-    margin: 0px 50px;
-        }
+        margin: 0px 50px;
+    }
 }
 
-    
 @media screen and (max-width: 501px){
-   
     .event{
         width: auto;
         flex-shrink: initial;
@@ -685,22 +648,27 @@ bottom: 1px;
     .event img {
         width: 100%;
     }
+    .event-title{
+        font-size: 40px;
+    margin: 0;
+    width: 87vw;
+    margin: 30px 0;
+    }
     .container-profil-bloc{
        background-color: #E8354B;
     }
     .container-profil-bloc1 {
-    width: 100%;
-    top: 10px;
-    left: 10px;
-    background-color: #E8354B;
-    z-index: -1;
+        width: 100%;
+        top: 10px;
+        left: 10px;
+        background-color: #E8354B;
+        z-index: -1;
     }
-
     .person{
-    width: 60vw;
+        width: 60vw;
     }
     .typo{
-    width: 90vw;
+        width: 90vw;
     }
     .container-person {
         max-width: 1000px;
@@ -711,32 +679,28 @@ bottom: 1px;
         height: 850px;
         padding-bottom: 60px;
     }
-    
     .person-elemnts2{
         position: relative;
         top: 
         z-index: 3;
         margin: 0 auto;
-            left: 0;
-    right: 0;
-    top: 30px;
-    bottom: 0;
+        left: 0;
+        right: 0;
+        top: 30px;
+        bottom: 0;
     }
     .person-elemnts3{
-display: none;
+        display: none;
     }
     .text-elements{
         position: relative;
-bottom: 190px;
+        bottom: 190px;
         z-index: 3;
-    margin: 0px 50px;
-        }
+        margin: 0px 50px;
+    }
      .person-elemnts4{
-     margin: 60px 0 0;   
+        margin: 60px 0 0;   
     }
 }
-
-
 @media screen and (max-width: 320px){
-
 }
