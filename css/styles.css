@@ -23,6 +23,8 @@ h1{
     color: #010AD8;
     font-size: 40px;
     margin-bottom: 40px;
+    font-weight: bold;
+    
 }
 h1 span {
      color: #E8354B;
@@ -145,6 +147,19 @@ figure {
     flex-wrap: inherit;
     position: relative;
     }
+.wrapper-container-white{
+    /*border: 1px solid red;*/
+    max-width: 1000px;
+/*    width: 100%; es mejor usar el flex porque si agregamos padding se lo va  asumar a esto*/
+    flex: 1;
+    margin: 60px auto 0;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    position: relative;
+    }
 
 
 .event {
@@ -166,6 +181,7 @@ figure {
 }
 .event-list-title{
     margin: 0 30px 30px;
+    
 }
 .event-title{
     color: #E8354B;
@@ -173,6 +189,7 @@ figure {
     margin-bottom: 40px;;
     margin: 0;
     width: 25vw;
+    font-weight: bold;
 }
 .event img {
     width: 700px;
@@ -188,7 +205,7 @@ figure {
     text-align: ;
     position: relative;
     bottom: 250px;
-    left: 490px;
+    left: 610px;
 }
 .event-description{
      text-align: left;
@@ -224,6 +241,19 @@ figure {
         margin: 0 auto;
 width: 65%;
     }
+
+.name{
+    color: #010AD8;;
+    font-size: 40px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.paragraphe-detail-text-blue{
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0 20px;
+    color: #010AD8;
+}
 .paragraphe-detail-text{
     font-size: 16px;
     line-height: 150%;
@@ -239,7 +269,7 @@ width: 65%;
     width: 100%;
   top: 10px;
   left: 10px;
-  background-color: white;
+  background-color: #E8354B;
   z-index: -1;
 }
 .container-profil-bloc{
@@ -298,11 +328,24 @@ position: relative;
 color: white;
     font-size: 16px;
     margin-bottom: 0;
-    line-height: 125%
+    line-height: 135%
 }
 .lin-top{
      width: 100%;
     height: 50%;
+}
+.title-profil{
+    color: #010AD8;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 15vw;
+    font-weight: bold;
+}
+.title-profil span{
+     color: white;
+    font-size: 40px;
+    font-weight: bold;
 }
 .container-top{
     display: flex;
@@ -321,13 +364,19 @@ color: white;
 .typo{
     width: 40vw;
 }
-.name{
-    color: white;
-    font-size: 2.5em;
-}
+
 .post{
     color: white;
-    font-size: 1.5em;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.post span{
+     color: white;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.5em;
 }
 .description{
     color: white;
@@ -347,23 +396,36 @@ color: white;
   background: repeating-linear-gradient(-.9deg, #E8354B 0, #E8354B 50%,  white 0, white);
 }
     .footer{
-    background-color: #afafaf;
-    color: white;
+    background-color: white;
+    color: #8e8e8e;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 25px;
     flex-wrap: wrap;
+    margin: 30px 0;
 }
 .footer img{
     vertical-align: middle;
 }
 
-.footer a{
-    color: white;
+.footer .email{
+    text-align: right;
+    color:  #E8354B;
+}
+.footer p{
+    font-size: .8em;
+    line-height: 1.5em;
+    
 }
 
-
+.footer a{
+    color:  #E8354B;
+    text-decoration: none;
+}
+.footer .tel {
+    color:  blue;
+}
 
 @media screen and (max-width: 2560px) and (min-width: 1601px){
     
@@ -387,6 +449,18 @@ color: white;
   background-color: #E8354B;
   z-index: -1;
 }
+    .title-profil {
+    color: #010AD8;
+    font-size: 3vw;
+    margin-bottom: 30px;
+    margin-top: 0;
+    margin-left: 15vw;
+    font-weight: bold;
+    }
+    .title-profil span {
+    color: white;
+    font-size: 3vw;
+        font-weight: bold;}
     .person{
         width: 20vw;
     }
@@ -474,7 +548,7 @@ width: 65%;
     .event-title{
         font-size: 50px;
         margin: 0;
-        width: 25vw; 
+        width: 35vw; 
     }
     .event-detail {
         margin: 0px;
@@ -482,7 +556,7 @@ width: 65%;
         text-align: right;
         position: relative;
         bottom: 250px;
-        left: 480px;
+        left: 500px;
     }
     .container-profil-bloc{
        background-color: #E8354B;
@@ -513,9 +587,10 @@ width: 65%;
         top: 100px;
 }
             .paragraphe-detail-2 {
-            margin: 0 auto;
+                margin: -100px auto 110px;
 width: 90%;
     }
+      
 }
     
 @media screen and (max-width: 720px){
@@ -530,6 +605,7 @@ width: 90%;
         font-size: 40px;
         margin: 0;
         width: 100vw;
+        margin: 30px 0;
     }
     
     .event-detail{
@@ -538,7 +614,7 @@ width: 90%;
         text-align: left;
         position: relative;
         bottom: 0px;
-        left: 70px;
+        left: 30px;
     }
     .event-imageContainer1{
         width: 90%;
@@ -555,6 +631,10 @@ width: 90%;
         margin: 0 auto;
         padding: 10px 0;
         text-align: center;
+    }
+    .paragraphe-detail-2 {
+                margin: 10px auto ;
+width: 90%;
     }
 
     .container-profil-bloc{
